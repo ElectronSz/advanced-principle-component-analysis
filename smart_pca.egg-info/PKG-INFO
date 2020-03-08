@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: smart-pca
+Version: 0.1.2
+Summary: PCA with varimax rotation and feature selection compatible with scikit-learn
+Home-page: https://github.com/electronsz
+Author: Electronsz
+Author-email: janetuker2@gmail.com
+License: MIT
+Project-URL: Source Code, https://github.com/electronsz/advanced-principle-component-analysis
+Project-URL: Documentation, https://pypi.org/project/advanced-pca/#description
+Description: Researchers use Principle Component Analysis (PCA) intending to summarize features, identify structure in data or reduce the number of features. The interpretation of principal components is challenging in most of the cases due to the high amount of cross-loadings (one feature having significant weight across many principal components). Different types of matrix rotations are used to minimize cross-loadings and make factor interpretation easier.
+Keywords: Principle Component Analysis,Matrix rotation,Feature selection,PCA,scikit-learn
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

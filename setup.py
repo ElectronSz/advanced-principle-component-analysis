@@ -2,31 +2,26 @@ from setuptools import setup
 from os import path
 
 PROJECT_URLS = {
-    'Source Code': 'https://github.com/alfredsasko/' \
+    'Source Code': 'https://github.com/electronsz/' \
                    'advanced-principle-component-analysis',
     'Documentation': 'https://pypi.org/project/advanced-pca/#description'
 }
 
 
-# read the contents of your README file
-__file__ = 'C:/Users/Fredo/Google Drive/Knowledge Center/' \
-           'Data Scientist Nanodegree/pr-pypi-package/README.md'
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+long_description = "Researchers use Principle Component Analysis (PCA) intending to summarize features, identify structure in data or reduce the number of features. The interpretation of principal components is challenging in most of the cases due to the high amount of cross-loadings (one feature having significant weight across many principal components). Different types of matrix rotations are used to minimize cross-loadings and make factor interpretation easier."
 
 setup(
-  name = 'advanced_pca',
-  packages = ['advanced_pca'],
-  version = '0.1.1',
+  name = 'smart_pca',
+  packages = ['smart_pca'],
+  version = '0.1.2',
   license='MIT',
   description = 'PCA with varimax rotation and feature selection '  \
                 'compatible with scikit-learn',
   long_description=long_description,
   long_description_content_type='text/markdown',
-  author = 'Alfred Sasko',
-  author_email = 'alfred.sasko@gmail.com',
-  url = 'https://github.com/alfredsasko',
+  author = 'Electronsz',
+  author_email = 'janetuker2@gmail.com',
+  url = 'https://github.com/electronsz',
   project_urls=PROJECT_URLS,
   keywords = ['Principle Component Analysis',
               'Matrix rotation',
@@ -42,6 +37,8 @@ setup(
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8'
   ],
   zip_safe=False,
 )

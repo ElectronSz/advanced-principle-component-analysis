@@ -1,0 +1,10 @@
+README.md
+setup.py
+smart_pca/__init__.py
+smart_pca/custom_pca.py
+smart_pca.egg-info/PKG-INFO
+smart_pca.egg-info/SOURCES.txt
+smart_pca.egg-info/dependency_links.txt
+smart_pca.egg-info/not-zip-safe
+smart_pca.egg-info/requires.txt
+smart_pca.egg-info/top_level.txt
